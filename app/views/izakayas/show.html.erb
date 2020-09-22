@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @izakaya.name %>
+</p>
+
+<p>
+  <strong>Tel:</strong>
+  <%= @izakaya.tel %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @izakaya.address %>
+</p>
+
+<%= link_to 'Edit', edit_izakaya_path(@izakaya) %> |
+<%= link_to 'Back', izakayas_path %>
